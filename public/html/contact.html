@@ -23,7 +23,7 @@
     <textarea name = "message" required rows = "4" cols = "50"> </textarea>
     <br>
     <label for = "telephone">Telephone:</label>
-    <input type = "number" name = "telephone" required>
+    <input type = "text" name = "telephone" required pattern = "\d{3}[\-]\d{3}[\-]\d{4}">
     <br>
     <button type = "submit">Send</button>
   </form>
