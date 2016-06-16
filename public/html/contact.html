@@ -12,5 +12,20 @@
     </ul>
   </div>
   <p>Tell me what you think! Send a question! Drop by and say hi!</p>
+  <form action="/contact" method = "post">
+    <label for = "name">Name:</label>
+    <input type = "text" name = "name" required>
+    <br>
+    <label for = "email">Email:</label>
+    <input type = "email" name = "email" required>
+    <br>
+    <label for = "message">Message</label>
+    <textarea name = "message" required rows = "4" cols = "50"> </textarea>
+    <br>
+    <label for = "telephone">Telephone:</label>
+    <input type = "number" name = "telephone" required>
+    <br>
+    <button type = "submit">Send</button>
+  </form>
 </body>
 </html>
